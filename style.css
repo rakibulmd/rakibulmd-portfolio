@@ -102,6 +102,9 @@ p {
 
 /*  Aim section */
 
+.aim-section {
+  display: flex;
+}
 .aim-bg {
   width: 50%;
   /* background: url(img/rakib-bg.png) no-repeat center center/cover; */
@@ -133,6 +136,11 @@ p {
   background: url(./img/dream-bg.png) no-repeat;
   /* background: rgb(255, 255, 255); */
 }
+
+.experience-flex {
+ display: flex; 
+}
+
 
 .experience-item {
   width: 50%;
