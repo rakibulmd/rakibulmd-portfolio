@@ -1,0 +1,88 @@
+
+.welcome-bg {
+  width: 30%;
+}
+
+.xl-heading {
+  font-size: 3rem;
+}
+.l-heading {
+  font-size: 2rem;
+}
+
+.m-heading {
+  font-size: 1.5rem;
+}
+
+.s-heading {
+  font-size: 1.2rem;
+}
+
+.py-3 {
+  padding: 2.5rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.welcome-text .introduction {
+  padding: 1rem 0;
+}
+
+.welcome-text {
+  padding: 4rem 2rem 1rem;
+  width: 70%;
+}
+
+.welcome-text p {
+  margin: 1rem 0;
+}
+.aim-text .aim-heading {
+  padding: 1rem 0;
+}
+
+.aim-text p {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+#experience {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.experience-item {
+  margin: 0 2rem 0 0;
+}
+
+.skill-container {
+  gap: 1rem;
+}
+
+.skill-item {
+  padding: 1rem .5rem;
+  flex: 1;
+}
+
+#contact {
+  padding: 1rem 0 1rem 2rem;
+  background: #222;
+  color: #fff;
+}
+
+.contact-section {
+  flex-direction: column;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-links {
+  width: 100%;
+  margin-top: 3rem;
+}
+

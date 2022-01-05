@@ -141,20 +141,19 @@ p {
   /* margin-left: 2rem; */
   box-shadow: 5px 7px 15px rgba(160, 160, 160, 0.3), 3px 5px 15px rgba(80, 80, 80, 0.5);
   background-color: rgba(255, 255, 255, 0.7);
+  border-top-right-radius: .8rem;
 }
 
 #pro-developer {
   border-left: 40px solid;
   border-image: linear-gradient(180deg, orangered, rgb(235, 172, 0));
   border-image-slice: 10;
-  border-top-right-radius: .5rem;
 }
 
 #learner {
   border-left: 40px solid;
   border-image: linear-gradient(180deg, orangered, rgb(235, 172, 0));
   border-image-slice: 10;
-  border-top-right-radius: .5rem;
 }
 
 /* Skill Section */
@@ -186,9 +185,68 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Footer Section */
 
+/* Contact Section */
+
+#contact {
+  padding: 2rem;
+  background: #222;
+  color: #fff;
+}
+.contact-section {
+  display: flex;
+}
+.contact-form {
+  width: 40%;
+  border-right: 1px solid #555;
+}
+
+.contact-form .form-item label {
+  font-size: 1.3rem;
+  color: dim;
+  border: none;
+}
+.contact-form .form-item input{
+  width: 90%;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  border-radius: .3rem;
+  padding: .5rem;
+}
+
+.contact-form .form-item input:focus,
+.contact-form .form-item textarea:focus {
+  outline: none;
+  border-color: orangered;
+}
+
+.contact-form .form-item textarea {
+  width: 90%;
+  margin-bottom: 1.5rem;
+  border-radius: .3rem;
+  padding: .5rem;
+  height: 70px;
+
+}
+
+.contact-links {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-flex {
+ padding: 1rem;
+}
+
+.contact-flex a {
+  padding: 0 2rem;
+}
+/* Footer Section */
 footer p {
-  color: dimgray;
-  margin-top: 20px;
+  background: rgb(49, 49, 49);
+  color: #fff;
+  padding-top: 20px;
 }
